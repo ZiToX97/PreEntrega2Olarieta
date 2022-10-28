@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-shadow: 0 0 5px #333;
+}
+
+.logo{   
+    float: left;    
+    font-size: 30px;
+    
+}
+
+.logo span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(174, 141, 164);
+    text-transform: uppercase;
+    float: left;    
+    font-size: 30px;
+    
+    
+}
+
+.logo span:hover{
+    color: rgb(199, 199, 199);
+    text-shadow: 0 0 40px rgb(174, 141, 164);
+}
+
+.menu1{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.menu2{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.menu3{
+    grid-column: 3/4;
+    grid-row: 2;
+}
+.menu4{
+    grid-column: 4/5;
+    grid-row: 2;
+}
+.menu5{
+    grid-column: 5/6;
+    grid-row: 2;
+}
+
+.menu {
+    text-decoration: none;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    
+
+}
+
+.barra{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+
+.barra ul{
+    list-style: none;
+    
+}
+
+.barra ul li{
+    display: inline-block;
+    padding-left: 2px;
+    padding-top: 6px;
+    padding-right: 20px;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra a:hover{
+    color: rgb(168, 168, 168);
+    text-decoration:none;
+    text-shadow: 0 0 2px rgb(174, 141, 164);
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/306360850_635984171225812_8721429160558684197_n.jpg);
+    background-size:cover;
+    background-position: left;
+    }
+
+.call{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.508);
+    padding: 20px;
+    border: 2px solid rgb(174, 141, 164);
+    margin: 30px;
+    width: 60%;
+}
+
+
+.call .pclass{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: rgb(174, 141, 164);
+    text-shadow: 0 0 2px rgb(68, 68, 68);
+    margin-bottom: 16px;
+    
+}
+
+.call p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.call a{
+    background-color: (#222);
+    border: 1px solid rgb(174, 141, 164);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    float:inherit;
+}
+
+.call a:hover{
+    background-color: rgba(34, 34, 34, 0.679);
+    border: 1px solid rgb(238, 50, 194);
+}
+
+h2{
+    background-color: rgb(174, 141, 164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.sec{
+    height: 700px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.item{
+    width: 100%;
+    border: 2px solid #fff;
+    transition: transform 0.7s;
+}
+
+.item:hover{
+    transform: scale(1.2);
+}
+
+.item1{
+    background-image: url(/img/4b5c5f17-74b9-46c5-83d6-2cb5d0e320a0.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(/img/35c11812-38e8-478a-9fe6-87868e275f59.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(img/3be2a482-fa86-4361-82b8-b6236013b0de.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(img/42754864-92f4-4c9d-a726-c11ac80a7894.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background-image: url(img/c10cb9d0-94ba-467f-89c1-04d07f250280.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(img/9c9d5c22-eb40-4842-9132-1a32027be181.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-image: url(img/a0751913105_10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background-image: url(img/a2850109736_10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: rgb(174, 141, 164);
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.redes{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.redes a{
+    color: #fff;
+}
+
+.redes a:hover{
+    color: #333;
+    text-shadow: 0 0 40px rgb(174, 141, 164);
+}
+
+.subir{
+    height: 45px;
+    width: 45px;
+    background-color:#fff ;
+    border:4px solid rgb(174, 141, 164);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: rgb(174, 141, 164);
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(174, 141, 164);
+}
+
+.invimage{
+    height: 10px;
+}
+
+.galeria{
+    background-color: #333;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+
+/* About Us */
+
+
+h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(68, 68, 68);
+    margin-bottom: 16px; 
+}
+
+
+/* Media */
+
+#transmoderna .transmoderna {
+    padding: 0 20px;
+  }
+  
+  #transmoderna .transmoderna .transmoderna-title {
+    margin: 3.12rem auto 1.6rem;
+    font-size: 3.75rem;
+  }
+  
+  #transmoderna .transmoderna .transmoderna-text {
+    font-size: 1.37rem;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #transmoderna .transmoderna .ep-container {
+    text-align: center;
+    margin: 3.12rem auto;
+  }
+
+.grid-item .grid-container {
+    display: inline-block;
+    margin: 1.25rem;
+  }
+  
+  .grid-container .ep-img {
+    width: 200px;
+  }
+  
+  .grid-container .ep-album {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #bd5ef3;
+    padding: 10px 0;
+  }
+  
+  .grid-container .ep-artists {
+    font-size: 1.2rem;
+  }
+  
+  .galeryimage{
+  display: inline-block;
+  max-width: 50px;
+  }
+
+  @media only screen and (min-width:480px){
+    .nosotros{
+        display: flex;
+    }
+    .nleft{
+        width: 50%;
+        height: 100%;
+        background-position: right;
+    }
+    .nright{
+        width: 50%;
+        height: 100%;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px)
+
+    }
+
+}
+@media only screen and (min-width:768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item4{
+       grid-column: 2/4;
+       grid-row: 2/3; 
+    }
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
